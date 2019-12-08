@@ -1,0 +1,32 @@
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-image: url("godzillabg1.jpeg");
+}
+
+.jumbotron {
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    background: rgb(112, 110, 110, 0.0);
+    color: white;
+    font-family: 'Shojumaru', cursive;
+}
+
+a {
+    color: white;
+    font-family: 'Shojumaru', cursive;
+}
+
+.btn {
+    background-color: white;
+    border: black;
+}
+
+#start-quiz:hover {
+    color: black;
+    background-color: white;
+    font-family: 'Shojumaru', cursive;
+}
