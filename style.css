@@ -30,3 +30,37 @@ a {
     background-color: white;
     font-family: 'Shojumaru', cursive;
 }
+
+@keyframes flashing {
+    from {color: yellow;}
+    to {color: red;}
+}
+
+h3#countdown {
+    margin-left: 75%;
+    color: white;
+    font-family: 'Shojumaru', cursive;
+    float: left;
+    animation-name: flashing;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+}
+
+.questions-box {
+    display: none;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: rgb(112, 110, 110, 0.0);
+    color: white;
+    font-family: 'Shojumaru', cursive;
+    margin-top: 175px;
+}
+
+.btn.btn-outline-dark {
+    margin: 2px 1px 2px 1px;
+}
