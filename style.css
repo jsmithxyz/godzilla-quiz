@@ -64,3 +64,19 @@ h3#countdown {
 .btn.btn-outline-dark {
     margin: 2px 1px 2px 1px;
 }
+
+.form-group {
+    visibility: hidden;
+    margin-top: 175px;
+    width: 600px;
+    height: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    font-family: 'Shojumaru', cursive;
+    text-align: center;
+}
+
+#formGroupExampleInput {
+    text-align: center;
+}
