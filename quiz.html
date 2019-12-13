@@ -21,10 +21,16 @@
   <div class="wrapper">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">High Scores</a>
-        <h3 id="countdown">Timer: 75</h3>
+        <a class="btn btn-primary btn-lg" id="viewScores" role="button">View High Scores</a>        <h3 id="countdown">Timer: 75</h3>
       </nav>
     </div>
+
+    <div class="scoresBox">
+        <ol id="scoreList">
+          <h4>High Scores</h4>
+
+        </ol>
+      </div>
 
     <div class="jumbotron">
         <h1 class="display-4" id="beware-ani">Beware!!!</h1>
@@ -45,12 +51,18 @@
         </div>
     </div>
 
-    <form>
+    
+
+      <form>
       <div class="form-group">
         <h1 id= "highScoreTitle"></h1>
         <label for="formGroupExampleInput">Input Your Initials Below!</label>
         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nuclear Codes">
+        <button type="button" class="btn btn-dark">Submit</button>
       </div>
+    </form>
+
+    
 
   </div>
   <script src="answers.js"></script>

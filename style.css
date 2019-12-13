@@ -3,6 +3,9 @@
     width: 100%;
     background-image: url("godzillabg1.jpeg");
 }
+body {
+    margin: 0px;
+}
 
 .jumbotron {
     width: 800px;
@@ -18,6 +21,9 @@
 a {
     color: white;
     font-family: 'Shojumaru', cursive;
+}
+#viewScores:hover {
+    color:yellow;
 }
 
 .btn {
@@ -51,7 +57,6 @@ h3#countdown {
     display: none;
     background-color: white;
     width: 800px;
-    height: 500px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -66,7 +71,7 @@ h3#countdown {
 }
 
 .form-group {
-    visibility: hidden;
+    display: none;
     margin-top: 175px;
     width: 600px;
     height: 75px;
@@ -80,3 +85,37 @@ h3#countdown {
 #formGroupExampleInput {
     text-align: center;
 }
+
+.btn.btn-dark {
+    margin: 4px 1px 2px 1px;
+    color: black;  
+}
+
+.scoresBox {
+    float: left;
+    display: none;
+    background-color: rgb(253, 252, 252, 0.0);
+    width: fit-content;
+    padding-left: -10px;
+    padding-right: 20px;
+    margin-left: 30px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: auto;
+    margin-top: 150px;
+}
+
+#scoreList {
+    color: white;
+    display: none;
+    text-align: center;
+    font-family: 'Shojumaru', cursive;
+}
+
+a#viewScores.btn.btn-primary.btn-lg {
+    color: white;
+    background-color: rgb(255, 255, 255, 0.0);
+}
+
+
+
